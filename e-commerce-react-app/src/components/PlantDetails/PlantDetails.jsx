@@ -13,15 +13,15 @@ export default function PlantDetails({ plants, handleAddToCart }) {
   };
 
   return (
-    <div>
+    <div className="plant-details-container">
       <h1>{plant.name}</h1>
       <img src={plant.image} alt={plant.name} />
-      <h2>Description</h2>
+
       <p>{plant.description}</p>
       <h2>CARE INSTRUCTIONS</h2>
-      <h2>Lighting</h2>
+      <h3>Lighting</h3>
       <p>{plant.lighting}</p>
-      <h2>Watering</h2>
+      <h3>Watering</h3>
       <p>{plant.watering}</p>
       <p>Price: ${plant.price}</p>
       <button onClick={addToCart}>Add to cart</button>

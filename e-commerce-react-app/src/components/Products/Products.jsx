@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export default function Products({ plants }) {
   return (
     <div className="product-card-container">
-      <h1>Shop Our Plants</h1>
       {plants.map((plant) => (
         <div className="product-card" key={plant.name}>
           <h2>{plant.name}</h2>
