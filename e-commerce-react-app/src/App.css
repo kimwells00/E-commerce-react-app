@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nib, serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -33,15 +33,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding-top: 5rem;
+  text-align: center;
+  color: #224229;
 }
 
 .product-card {
   width: 30%; /* Adjust the width to fit three cards in a row */
-  margin-bottom: 1.5rem;
+
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
 .product-card h2 {
@@ -51,9 +51,18 @@
 .product-card img {
   width: 100%;
   height: 70%;
-  border-radius: 4px;
 }
-
+.plant-details-container {
+  text-align: center;
+}
+.cart-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5rem;
+  text-align: center;
+  color: #224229;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
