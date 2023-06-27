@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="home-page">
       <h1>Your Summer Oasis Awaits</h1> <br />
       <h3>Refresh your space with lush greenery, delivered to your door.</h3>
-      <button className="shopButton">Shop Plants</button>
+      <button className="shopButton">
+        <Link to={`/products`}> SHOP PLANTS </Link>
+      </button>
       {/* <p>
         Welcome to our plant paradise! We are passionate about bringing the
         beauty and benefits of plants right to your doorstep. <br /> At
