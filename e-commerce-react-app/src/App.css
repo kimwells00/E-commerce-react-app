@@ -12,6 +12,10 @@
   justify-content: center;
   color: white;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .shopButton {
   background-color: #f6cfb2;
   color: #2c4a4c;
