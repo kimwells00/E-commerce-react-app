@@ -14,7 +14,9 @@ function App() {
       name: "Monstera",
       scientificName: "	Monstera deliciosa 'Albo-Variegata'",
       image:
-        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=389,width=324,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_monstera_stone-e1633461206253.jpg",
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_monstera_alt_stone-e1633461236549.jpg?ver=279417",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_monstera_detail.jpg?ver=279420",
       description:
         "The Monstera is characterized by its large, glossy, heart-shaped leaves that have distinct, natural leaf holes called fenestrations. The leaves can grow to impressive sizes, often reaching up to 2 feet (60 cm) in length. The plant has a climbing habit, and as it matures, it develops aerial roots that can latch onto surfaces for support.",
       lighting:
@@ -27,20 +29,24 @@ function App() {
       name: "Fiddle leaf fig tree",
       scientificName: "Ficus lyrata",
       image:
-        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=390,width=324,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_fiddle-leaf-fig_charcoal-e1652800894846.jpg",
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/07/bloomscape_fiddle-leaf-fig_tree-size_stone.jpg?ver=915890",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/07/bloomscape_fiddle-leaf-fig_tree-size_detail_Edited.jpg?ver=916105",
       description:
         "The Fiddle-Leaf Fig tree has large, violin-shaped leaves that are dark green and leathery in texture. The leaves are deeply veined and have a glossy sheen, adding to their aesthetic appeal. The tree can grow up to several feet tall, creating an impressive focal point in any indoor space.",
       lighting:
         "The Fiddle-Leaf Fig thrives in bright, indirect light. It enjoys being near a window where it can receive filtered sunlight. However, it's important to protect it from direct, harsh sunlight, as it can scorch the leaves. Rotate the tree occasionally to ensure even growth on all sides.",
       watering:
         "It's essential to strike a balance with watering the Fiddle-Leaf Fig. Allow the top inch or so of the soil to dry out between waterings, and then water the plant thoroughly. Avoid overwatering or letting the plant sit in water, as it can lead to root rot. Adjust the watering frequency based on the season and environmental conditions.",
-      price: 60.0,
+      price: 600.0,
     },
     {
       name: "Triostar",
       scientificName: "stromanthe triostar",
       image:
         "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=921,width=768,metadata=copyright,format=webp/wp-content/uploads/2022/05/bloomscape_stromanthe_triostar_large_stone-scaled.jpg",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/02/bloomscape_stomanthe-tricolor_10in_detail-scaled.jpg?ver=675606",
       description:
         " Stromanthe Triostar features large, lance-shaped leaves with striking variegation. The leaves have a mix of colors including shades of green, cream, and pink. The variegation creates a beautiful and eye-catching pattern, adding a touch of tropical elegance to any space.",
       lighting:
@@ -50,23 +56,27 @@ function App() {
       price: 40.0,
     },
     {
-      name: "Elephant's ear",
-      scientificName: "Colocasia",
+      name: "Dracaena Gold Star",
+      scientificName: "CDracaena warneckii 'gold star'",
       image:
-        "https://i.pinimg.com/736x/ba/5d/93/ba5d935842bb465025a66862980d4936.jpg",
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_dracaena-gold-lemon-lime_slate-1.jpg?ver=279723",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_dracaena-gold-lemon-lime_detail.jpg?ver=279520",
       description:
         "The Elephant Ear plant is characterized by its large, heart-shaped or arrowhead-shaped leaves that grow on long stalks. The leaves can vary in size, depending on the species and cultivar, but they are typically broad and impressive, giving the plant its unique and recognizable look. The foliage comes in various shades of green, and some varieties may have interesting patterns or variegation.",
       lighting:
         "Elephant Ear plants thrive in bright, indirect light or partial shade. While they can tolerate some direct sunlight, it's best to provide them with filtered light to prevent scorching of the leaves. In indoor settings, place them near a window with indirect light, or provide supplemental artificial lighting.",
       watering:
         " These plants prefer consistently moist soil but not waterlogged conditions. Water them thoroughly whenever the top inch of soil feels dry to the touch, ensuring proper drainage. During hot summer months, they may require more frequent watering to maintain adequate moisture levels.",
-      price: 50.0,
+      price: 250.0,
     },
     {
       name: "Devil's ivy",
       scientificName: "Pothos",
       image:
-        "https://images.unsplash.com/photo-1537039557108-4a42c334fd5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_xs-golden-pothos-opp_xs_white.jpg?ver=955413",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_xs-golden-pothos-opp_xs_detail.jpg?ver=955411",
       description:
         "Pothos plants have heart-shaped leaves that are glossy and leathery in texture. The leaves can vary in color, with common varieties displaying shades of green, including light green, dark green, and variegated patterns. Variegated Pothos plants have marbled or speckled leaves that combine shades of green with creamy white or golden-yellow accents.",
       lighting:
@@ -79,7 +89,9 @@ function App() {
       name: "Snake plant",
       scientificName: "Dracaena trifasciata",
       image:
-        "https://images.unsplash.com/photo-1593482892290-f54927ae1bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_sanseveria_zeylancia_sm_charcoal-scaled.jpg?ver=955388",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_sanseveria_zeylancia_sm_detail-scaled.jpg?ver=955390",
       description:
         "Snake Plants have long, upright leaves that are thick and sword-shaped. The leaves are typically dark green, although some varieties may have variegated patterns with yellow or white stripes. The leaves grow vertically from a basal rosette, and they can reach varying heights depending on the specific Snake Plant variety.",
       lighting:
@@ -87,6 +99,51 @@ function App() {
       watering:
         " Snake Plants have low water requirements and are susceptible to overwatering. They are drought-tolerant and prefer to dry out between waterings. It's important to let the soil dry partially or completely before watering again. Overwatering can lead to root rot and other issues, so it's best to err on the side of underwatering.",
       price: 50.0,
+    },
+    {
+      name: "Money tree",
+      scientificName: "Pachira aquatica",
+      image:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/01/bloomscape_wooden-plant-stand_natural_money-tree-scaled.jpg?ver=660135",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_money-tree_detail.jpg?ver=279406",
+      description:
+        "The Money Tree has a distinctive braided trunk and a canopy of glossy, green leaves. The trunk is thick and often trained into intricate braided patterns, adding to its decorative appeal. The leaves are palmate, meaning they resemble a hand with multiple leaflets. They create a lush, full appearance that can vary in size depending on the age and care of the plant.",
+      lighting:
+        "Money Trees prefer bright, indirect light. They can tolerate lower light conditions but may have slower growth and less vibrant foliage. Avoid placing them in direct sunlight, as it can scorch the leaves. Placing them near a window with filtered light or providing them with bright artificial lighting can help maintain their health and appearance.",
+      watering:
+        "Money Trees have moderate watering needs. It's important to allow the top inch (2.5 cm) of soil to dry out between waterings before watering again. Overwatering can lead to root rot, so it's essential to ensure proper drainage and avoid waterlogged conditions. Adjust watering frequency based on the environmental conditions and the moisture needs of the plant.",
+      price: 170.0,
+    },
+    {
+      name: "Peace Lily",
+      scientificName: "Spathiphyllum spp. 'sweet pablo'",
+      image:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=922,width=768,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_peace-lily6_md_charcoal.jpg",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2022/10/bloomscape_peace-lily6_md_detail-scaled.jpg?ver=955367",
+      description:
+        "Peace Lilies have dark green, glossy leaves that are lance-shaped and pointed. The leaves rise up from the soil in an upright manner, creating a graceful and compact foliage display. The plant also produces beautiful white flowers that resemble a peace flag, giving it its name. The flowers are often surrounded by a hood-like bract, adding to their visual appeal.",
+      lighting:
+        "Peace Lilies prefer bright, indirect light but can tolerate lower light conditions. Avoid placing them in direct sunlight, as it can scorch the leaves. They can be placed near a window with filtered light or in areas with artificial lighting. If the leaves start to yellow, it may indicate too much direct sunlight.",
+      watering:
+        "Peace Lilies have moderate watering needs. It's important to keep the soil evenly moist but not soggy. Allow the top inch (2.5 cm) of soil to dry out before watering again. Drooping leaves can indicate underwatering, while yellowing leaves can signal overwatering. Adjust the watering frequency based on the environmental conditions and the moisture needs of the plant.",
+      price: 70.0,
+    },
+    {
+      name: "Bird Of Paradise",
+      scientificName: "Strelitzia nicolai",
+      image:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_bird-of-paradise_indigo.jpg?ver=279491",
+      detailImage:
+        "https://bloomscape.com/cdn-cgi/image/quality=75,fit=scale-down,height=580,width=696,metadata=copyright,format=webp/wp-content/uploads/2020/08/bloomscape_large_bird-of-paradise_detail_600x600.jpg?ver=282361",
+      description:
+        " Bird of Paradise plants feature large, glossy, banana-shaped leaves that grow in a fan-like arrangement. The leaves are typically deep green and can reach a considerable size, creating a bold and tropical foliage display. The most distinctive feature of the Bird of Paradise is its vibrant and striking flowers, which are composed of bright orange and blue petals that resemble a bird's beak and plumage.",
+      lighting:
+        "Bird of Paradise plants prefer bright, indirect sunlight to encourage healthy growth and vibrant blooms. They can tolerate some direct sunlight but should be protected from intense midday sun, which can scorch the leaves. Place them near a window with filtered light or provide artificial lighting if needed.",
+      watering:
+        "Bird of Paradise plants have moderate watering needs. It's important to keep the soil evenly moist but not waterlogged. Allow the top inch (2.5 cm) of soil to dry out before watering again. During the active growing season, they may require more frequent watering. However, reduce watering during the dormant period.",
+      price: 200.0,
     },
   ];
   const [cart, setCart] = useState([]);
