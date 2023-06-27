@@ -1,21 +1,8 @@
-:root {
-  font-family: Nib, serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 .home-page {
   background-image: url("https://hips.hearstapps.com/hmg-prod/images/plant-guide-1663941701.jpg");
 
   background-size: cover;
-  background-position: center center; /* Adjusted background position */
+  background-position: center center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
@@ -28,6 +15,29 @@
 .shopButton {
   background-color: #f6cfb2;
   color: #2c4a4c;
+  border-radius: 20px;
+  font-family: Verdana, sans-serif;
+}
+a {
+  color: #224229;
+  text-decoration: none;
+}
+.more-info-button {
+  background-color: #f6cfb2;
+  color: #224229;
+}
+.shop-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 120%;
+
+  box-sizing: border-box;
+  color: white;
+
+  background-color: #224229;
+  font-weight: bold;
 }
 .product-card-container {
   display: flex;
@@ -55,52 +65,114 @@
 .plant-details-container {
   text-align: center;
 }
-.cart-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 5rem;
-  text-align: center;
-  color: #224229;
+/* INFO PAGE */
+.info-page {
+  background-image: url("");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
+.info-card {
+  text-align: center;
+  background-color: white;
+  color: #224229;
+  justify-content: center;
+}
+/* PLANT DETAILS PAGE */
+.plant-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f1e3;
+  color: #224229;
+  margin-top: 10px;
+}
+
+.plant-image {
+  flex: 1;
+  max-width: 700px;
+}
+
+.plant-image img {
+  width: 100%;
+  height: auto;
+}
+
+.plant-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* ADD TO CART BUTTON */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  font-family: Verdana, sans-serif;
+  background-color: #f6cfb2;
+  color: #224229;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: 0.25s;
+  margin: 5px;
 }
 button:hover {
-  border-color: #646cff;
+  color: white;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* CART PAGE */
+.cart-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 120%;
+
+  box-sizing: border-box;
+  color: white;
+
+  background-color: #224229;
+  font-weight: bold;
 }
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cart-card {
+  margin-bottom: 20px;
+
+  padding: 10px;
+}
+
+.cart-total {
+  font-weight: bold;
+}
+
 nav {
   display: flex;
-  justify-content: space-between; /* Align navigation items horizontally */
-  align-items: center; /* Center navigation items vertically */
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 3px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
-  background-color: #f6cfb2;
-  font-weight: bold;
 
-  /* Add a background color for better readability */
-  /*padding: 1rem; /* Add some padding around the navigation items */
+  background-color: white;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
 }
 
 nav a {
-  margin-right: 1rem; /* Add some spacing between navigation items */
+  margin-right: 1rem;
   text-decoration: none;
   color: #2c4a4c;
 }
